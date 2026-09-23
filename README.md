@@ -27,7 +27,7 @@ this has only been exercised on Windows so far.
 **1. Install the plugin in Claude Code:**
 
 ```
-/plugin marketplace add 1REDfriend/AnimeShopMCP
+/plugin marketplace add AnimeShopSimulatorMods/AnimeShopMCP
 /plugin install anime-shop-mcp@animeshop-mcp
 ```
 
@@ -56,7 +56,7 @@ disk. Everything else talks to the bridge over the socket and doesn't need it.
 **3. Build and install the bridge mod** (this repo, not the plugin install, does this part):
 
 ```bash
-git clone https://github.com/1REDfriend/AnimeShopMCP
+git clone https://github.com/AnimeShopSimulatorMods/AnimeShopMCP
 cd AnimeShopMCP
 ```
 
