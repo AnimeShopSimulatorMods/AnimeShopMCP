@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>AnimeShopBridge</AssemblyName>
+    <RootNamespace>AnimeShopBridge</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json" HintPath="$(MelonLoaderPath)\net35\Newtonsoft.Json.dll" Private="false" />
+    <Reference Include="UnityEngine.ScreenCaptureModule" HintPath="$(Il2CppAssembliesPath)\UnityEngine.ScreenCaptureModule.dll" Private="false" />
+  </ItemGroup>
+
+  <!-- Dev-only mod: copy it straight into the game. The game locks loaded mods, so close it first;
+       a locked file is a warning, not a failed build. Not something players install. -->
+  <Target Name="DeployToGame" AfterTargets="Build" Condition="Exists('$(GamePath)\Mods')">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(GamePath)\Mods" ContinueOnError="WarnAndContinue" />
+  </Target>
+</Project>

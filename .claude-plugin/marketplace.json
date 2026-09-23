@@ -1,0 +1,15 @@
+{
+  "name": "animeshop-mcp",
+  "owner": {
+    "name": "1REDfriend",
+    "url": "https://github.com/1REDfriend"
+  },
+  "description": "Tools for modding Anime Shop Simulator: let Claude Code read and drive the running game.",
+  "plugins": [
+    {
+      "name": "anime-shop-mcp",
+      "source": "./",
+      "description": "Inspect and drive a running Anime Shop Simulator from Claude Code: shelves, employees, screenshots, keyboard and mouse, and any field or method in the game."
+    }
+  ]
+}

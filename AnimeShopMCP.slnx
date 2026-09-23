@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Bridge/AnimeShopBridge.csproj" />
+  <Project Path="Server/AnimeShopMcp.csproj" />
+  <Project Path="Tests/AnimeShopMcp.Tests.csproj" />
+</Solution>

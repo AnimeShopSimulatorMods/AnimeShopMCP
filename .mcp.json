@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "AnimeShopMCP": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${CLAUDE_PLUGIN_ROOT}/scripts/run-server.ps1"
+      ],
+      "env": {
+        "GAME_PATH": "${GAME_PATH:-}",
+        "GAME_BRIDGE_PORT": "${GAME_BRIDGE_PORT:-47831}"
+      }
+    }
+  }
+}

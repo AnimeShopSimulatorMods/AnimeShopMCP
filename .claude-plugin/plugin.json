@@ -1,0 +1,11 @@
+{
+  "name": "anime-shop-mcp",
+  "description": "Inspect and drive a running Anime Shop Simulator from Claude Code. Needs the Anime Shop Bridge mod in the game and the .NET 10 SDK.",
+  "version": "0.1.0",
+  "author": {
+    "name": "1REDfriend"
+  },
+  "repository": "https://github.com/1REDfriend/AnimeShopMCP",
+  "license": "MIT",
+  "keywords": ["anime-shop-simulator", "melonloader", "modding", "unity", "il2cpp"]
+}
