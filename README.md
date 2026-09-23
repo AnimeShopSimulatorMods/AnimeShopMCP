@@ -176,7 +176,7 @@ itself reports it — is in [`Bridge/README.md`](Bridge/README.md).
 ## Where the mods being tested live
 
 The mods this tool was built to test — Smart Restock Employees, Cheat for Dev, and Employee Overtime —
-live in a separate repo, [`animeshopmod`](https://github.com/1REDfriend/animeshopmod). `Bridge/Game/`
+live in a separate repo, [`anime-shop-simulator-mods`](https://github.com/AnimeShopSimulatorMods/anime-shop-simulator-mods). `Bridge/Game/`
 holds copies of game-access code shared with that repo (service lookups, shelf finding, the cheat
 implementations); it's duplicated rather than referenced so this repo can stand alone.
 
